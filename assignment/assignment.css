@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+   margin: 0;
+    padding: 0;}
+nav{
+    height: 25px;
+    /* border: 2px solid red; */
+background-color: #023b6d;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0px;
+}
+div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+#div1{
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+
+    
+}
+#div2{
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    
+}
+#div3{
+    text-transform: uppercase;
+    background-color:#00a6eb;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+#section1{
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    
+    top: 25px;
+    background-color: white;
+}
+#section1 ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 30px;
+}
+li{
+   list-style-type: none;
+   /* color: white; */
+   font-size: 20px;
+   font-weight: 900;
+  
+}
+#div5 li{
+  
+   color: grey;
+}
+#div4{
+    /* text-transform: uppercase; */
+    /* border: 2px solid red; */
+    color :black;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+#div5{
+
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+#div6{
+
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius:50px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+#section2{
+
+/* border: 2px solid red; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+#div7{
+    font-size: 0.8em;
+    color: grey;
+    text-transform: uppercase;
+
+    
+}
+#div8{
+    font-family: cursive;
+    font-size: 1.8em;
+    color: red;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+#ul2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    margin-bottom: 30px;
+
+}
+#div9{
+    font-size: 1em;
+}
+#div10{
+    font-size: 2.5em;
+    color: #ce1212;
+    margin-bottom: 30px;
+}
+#section3{
+    margin-left:50px ;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+#div5>ul>li>a:hover{
+    color: black;
+    /* background-color: aqua; */
+    
+}
+.imagetextcontainer{
+    height: 370px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+.imagetextcontainer p{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+}
+.imagetextcontainer h4{
+    font-weight: 500;
+    text-align: center;
+    color: grey;
+    
+}
+.imagetextcontainer h1{
+    text-align: center;
+    color: #ce1212;
+
+}
+.div11{
+    height: 300px;
+    width: 300px;
+    
+}
+
+
+#section3 img{
+    height: 300;
+    width: 300px;
+    
+}
+
+/* #div12{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png");
+}
+#div13{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png");
+}
+#div14{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png");
+}
+#div15{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png");
+}
+#div16{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png");
+}
+#div17{
+    background-image: url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png");
+} */
