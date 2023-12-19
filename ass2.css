@@ -1,0 +1,1133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+
+    scroll-behavior: smooth;
+}
+
+#bootstrapemade{
+    /* border: 2px solid red; */
+    height: 35px;
+    background-color: #023b6d;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    
+    
+}
+#bootstrapemade>#div1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    
+ 
+}
+#bootstrapemade>#div1>i{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+#bootstrapemade>#div2{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 610px;
+    top: 4px;
+}
+#bootstrapemade>#divshare{
+        /* color: grey; */
+            
+    font-size: 15px;
+    position: absolute;
+    /* left: 1068px;
+    display: flex;
+    align-items: center;
+    /* color: #0c63b0; */
+    top: 9px;
+}
+#bootstrapemade>#divshare>a{
+    color: grey;
+}
+#bootstrapemade>#div3>button{
+    height: 100%;
+    width: 163px;
+    text-transform: uppercase; */
+    background-color: #00a6eb;
+    border-style: none;
+    color: white;
+}
+#knightpage {
+    /* border: 2px solid red; */
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: rgb(212, 174, 174); */
+    background-image: url("./hero-background.png");
+
+
+}
+
+#knightdiv {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+#knightdiv img {
+    height: 133px;
+    /* background-color: black; */
+    width: 127px;
+
+}
+
+#knightdiv>h1 {
+    color: white;
+    font-size: 55px;
+    font-family: math;
+}
+
+#knightdiv>p {
+    font-size: 16px;
+    font-family: math;
+    color: grey;
+    margin-bottom: 10px;
+
+}
+
+#knightpage button {
+    height: 54px;
+    width: 185px;
+    /* padding: 0; */
+    background-color: rgb(104 184 91);
+    border-color: rgba(104 184 91 0.4);
+    font-size: 17px;
+    color: white;
+    border: 4px;
+    border-radius: 3px;
+    transition: all 0.5s ease-out 0s;
+    letter-spacing: 2px;
+
+    /* letter spacing is used to give space betwween letters */
+    /* there is word spacing also to give space berween words */
+}
+
+#knightpage button:hover {
+
+    background-color: white;
+    color: rgb(104 184 91);
+}
+
+#firstnav{
+    border-bottom: 3px solid whitesmoke;
+    /* box-shadow: 2px; */
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    position: sticky;
+    top: 35px;
+    background-color: white;
+    z-index: 1;
+}
+
+#ndiv1 {
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#ndiv1 img {
+    /* background-color: black; */
+    height: 53%;
+    width: 16%;
+}
+
+#ndiv2 {
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 76px;
+}
+
+#ndiv2 ul {
+    display: flex;
+
+    justify-content: center;
+    list-style-type: none;
+    /* align-items: center; */
+    gap: 30px;
+
+
+}
+
+#ndiv2 ul a {
+    text-decoration: none;
+    color: rgb(27, 23, 23);
+    font-size: 17px;
+    /* font-family: sans-serif; */
+}
+
+#ndiv2 ul a:hover {
+    color: rgb(104 184 91);
+    /* transition: all 0.6 ease-out 5s; */
+}
+
+
+#about {
+    /* border: 2px solid red; */
+    height: 617px;
+
+}
+
+#aboutdiv {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+#aboutdiv h1 {
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#aboutdiv p {
+    color: grey;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+#aboutcommondiv {
+    /* border: 2px solid rgb(21, 222, 38); */
+    height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 98px;
+    background-color: white;
+
+
+}
+
+#aboutcommondiv img {
+    /* border: 5px solid red; */
+    /* height: 100%; */
+    width: 549px;
+    border: 20px solid whitesmoke;
+    position: relative;
+    left: 74px;
+}
+
+#aboutdivcontent {
+    /* border: 2px solid red; */
+
+
+
+}
+
+#aboutdivcontent>h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #423b3b;
+}
+
+#aboutdivcontent>p {
+    font-size: 18px;
+    font-family: system-ui;
+    margin-top: 14px;
+    font-style: italic;
+    color: #0f0e0e;
+}
+
+#aboutdivcontent li {
+    margin-top: 14px;
+    list-style-type: number;
+    font-size: 18px;
+
+
+}
+
+#aboutdivcontent h4 {
+    margin-top: 14px;
+    font-weight: 500;
+    color: rgb(31, 28, 28);
+    font-size: 18px;
+
+
+
+}
+
+/* -------------------------------services -------------------------------------------------*/
+#serivces {
+    /* border: 2px solid rgb(10, 164, 207); */
+    /* height: 1500px; */
+    /* don't need to give height to the  any section */
+}
+
+#serivces>#divserivces {
+    /* border: 2px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* don't use above code ,just use below code for this purpose */
+    text-align: center;
+
+
+
+}
+
+#divserivces>h1 {
+    font-size: 30px;
+}
+
+#divserivces>p {
+
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+
+#serivces>h1 {
+    font-size: 31px;
+}
+
+#serivces>p {
+
+    margin-top: 15px;
+    font-size: 17px;
+    color: grey;
+
+
+}
+
+#services1 {
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 50px 80px;
+    gap: 30px;
+}
+
+
+#services1>#div1 {
+    /* border: 2px solid rgb(43, 255, 0); */
+
+    height: 100%;
+    /* display: flex; */
+}
+
+.icon_heading_para {
+    /* border: 2px solid red; */
+    height: 25%;
+    display: flex;
+}
+
+.services1_icon {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    color: #00c3008c;
+}
+
+.heading_para {
+    /* border: 2px solid red; */
+    margin: 20px;
+
+}
+
+.heading_para>h1 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.heading_para>p {
+    font-size: 18px;
+    color: grey;
+}
+
+#services1>#div2 {
+    height: 100%;
+
+    border: 2px solid rgb(174, 0, 255);D
+
+}
+
+#services1>#div2>img {
+    height: 100%;
+    width: 100%;
+}
+
+#services2 {
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#services2>#imgdiv {
+    height: 100%;
+
+    /* border: 2px solid red; */
+    position: relative;
+    right: 30px;
+
+}
+
+
+
+
+#services2>#content {
+    /* border: 2px solid red; */
+    /* width: 20px; */
+}
+
+#services2>#content>.heading_para {
+    /* border: 2px solid red; */
+    /* height: 60px; */
+    width: 500px;
+    height: 20%;
+
+}
+
+#services2>#content>.heading_para>h1 {
+    font-size: 25px;
+}
+
+#services2>#content>.heading_para:hover h1 {
+
+    color: rgb(176, 227, 92);
+}
+
+#services2>#content>.heading_para>p {
+    font-size: 20px;
+}
+
+
+#services3 {
+    /* border: 2px solid rgb(156, 212, 15); */
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+
+
+}
+
+#services3>#Contentconainer {
+    /* border: 2px solid red; */
+    width: 520px;
+    /* text-align: center */
+    margin: 50px 0px 20px 130px;
+
+
+}
+
+#services3>#Contentconainer>#heading_para {
+    /* border: 10px solid rgb(38, 214, 47);
+font-size: 50px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background-color: whitesmoke; */
+
+    /* Note-No need for above code */
+    /* text-align: center; */
+}
+
+/* #services3>#Contentconainer>#heading_para>h1{
+    border: 2px solid rgb(7, 146, 113);
+} */
+
+#services3>#imagecontainer {
+    /* border: 2px solid red; */
+    width: 40%;
+
+
+
+
+}
+
+#services3>#imagecontainer>img {
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+#services3>#Contentconainer>.questions {
+
+    /* border: 2px solid red; */
+    background-color: white;
+    color: black;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#portfolio {
+    margin-top: 50px;
+    /* border: 2px solid green; */
+}
+
+#portfolio>#portfolio_div {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#portfolio>#portfolio_div>h1 {
+    font-size: 30px;
+
+}
+
+#portfolio>#portfolio_div>p {
+    font-size: 20px;
+    margin: 15px 0px 40px 0px;
+    color: grey;
+}
+
+#portfolio>#portfolio_div>button {
+    background-color: whitesmoke;
+    color: black;
+    height: 38px;
+    width: 60px;
+    margin-right: 10px;
+    /* border-radius: 4px;    */
+    border-style: none;
+    /* Note--- when you don't want defualt border around the button use above attribute to make borderless button */
+    border-color: whitesmoke;
+
+
+}
+
+#portfolio>#portfolio_div>button:hover {
+    background-color: rgb(101, 182, 101);
+    color: white;
+}
+
+#photos {
+    /* margin-top: 10px; */
+    /* border: 2px solid rgb(130, 12, 198); */
+    /* height: 813px; */
+    /* width: 1000px; */
+    /* Note---don't need to give width here,it will take entire width of the screen */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.inner {
+    height: 250px;
+    width: 350px;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    /* top: 150px; */
+    /* note-there is no need of above unnecessary code */
+
+
+    /* transition:all 1s ease-out 0s ; */
+
+
+}
+
+.outer1 {
+    height: 50px;
+    width: 50px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    visibility: hidden;
+
+}
+
+.text>h1 {
+    color: white;
+    text-align: center;
+}
+
+.outer2 {
+    height: 50px;
+    width: 50px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+    visibility: hidden;
+
+}
+
+.outer {
+    height: 87%;
+    width: 87%;
+    /* border: 2px solid rgb(4, 218, 111); */
+    position: absolute;
+    transition: all 0.3s linear 0s;
+}
+
+
+.text>h1 {
+    visibility: hidden;
+}
+
+.inner>img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.inner:hover .outer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(32, 32, 30, 0.64);
+
+    /* border: 10px solid red; */
+
+
+    color: white;
+}
+
+.outer:hover h1 {
+    visibility: visible;
+
+}
+
+.outer:hover .outer1 {
+    visibility: visible;
+
+}
+
+.outer:hover .outer2 {
+    visibility: visible;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 11px;
+    position: relative;
+    top: 77px;
+
+}
+
+.text>p {
+    text-align: center;
+    visibility: hidden;
+}
+
+.text>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    visibility: hidden;
+}
+
+.text>ul>li>a {
+    color: aliceblue;
+}
+
+.outer:hover p {
+    visibility: visible;
+}
+
+.outer:hover ul {
+    visibility: visible;
+}
+
+/* #last{
+    position: relative;
+    right: 403px;
+} */
+
+/* 
+note-After and before for L and reverse L 
+text size should not increase after the hover effect  */
+
+/* <!--------------------------Feedback-----------------------------------------------------> */
+
+#feedback {
+    margin-top: 80px;
+    border: 2px solid rgb(13, 132, 92);
+
+    position: relative;
+    height: 550px;
+}
+
+#feedback>img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#feedback>#iconbox {
+    margin-top: 30px;
+    border: 2px solid rgb(20, 204, 23);
+    border-radius: 100%;
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    left: 49%;
+}
+
+#feedback>#iconbox>i {
+    color: green;
+    font-size: 30px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+
+}
+
+#tesimony{
+    border: 2px solid green;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+
+    color: white;
+    margin-top: 50px;
+
+}
+#tesimonyimg{
+    position: absolute;
+    bottom: 157px;
+    left: 600px; 
+    color: white;
+ 
+    
+}
+
+#tesimonyimg>img{
+    height: 69px;
+    width: 69px;
+    border-radius: 100%;
+
+
+
+
+}
+
+/* <!-- -------------------navbar------------------------------------------------------ --> */
+
+
+#clientlogo {
+    /* margin-top: 10px; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 50px; */
+    list-style-type: none;
+    background-color: whitesmoke;
+
+
+
+}
+
+#clientlogo>div {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    height: 70px;
+    width: 10%;
+}
+
+#clientlogo div img {
+    height: 45%;
+    width: 80%;
+    transition: all 0.50s ease-in-out 0s;
+    filter: grayscale(100%);
+
+}
+
+#clientlogo>div:hover img {
+    transform: scale(1.2);
+    filter: none;
+
+
+}
+
+/* ------------------------team------------------------------------------------ */
+#team{
+    /* border: 2px solid rgb(46, 7, 186); */
+    margin-top: 50px;
+    text-align: center;
+
+}
+#team>#intro{
+    /* border: 2px solid red; */
+    
+}
+#team>#intro>h1{
+    font-size: 35px;
+    
+}
+#team>#intro>p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: grey;
+    margin-bottom: 30px;
+}
+#team>#container{
+    border: 2px solid rgb(0, 255, 162);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#team>#container>.singlecard{
+    border: 2px solid rgb(227, 113, 13);
+width: 29%;
+position: relative;
+text-align: left;
+}
+#team>#container>.singlecard>img{
+    /* height: 110%; */
+    width: 100%;
+    border-radius: 5px;
+}
+
+#team>#container>.singlecard>#effect{
+    border: 2px solid red;
+    position: absolute;
+    bottom: 146px;
+    width: 100%;
+    height: 45px;
+    opacity: 0;
+    border-style: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+#team>#container>.singlecard:hover #effect{
+ opacity: 0.8;
+ background-color: #54de54;
+    animation-name: effect;
+ animation-duration: 1s;
+ animation-timing-function: ease;
+
+}
+
+@keyframes effect{
+    from{height: 0;}
+    to{height: 45px;}
+}
+
+
+#team>#container>.singlecard>h1{
+    font-size: x-large;
+    
+}
+#team>#container>.singlecard>h4{
+    margin-top: 5px;
+    color: rgb(6, 199, 90);
+    font-size: small;
+}
+#team>#container>.singlecard>p{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+    font-family: math;
+    /* color: grey; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+
+}
+
+
+
+/* <!------------------------------ PRICING------------------------------------------------------------ --> */
+#pricing{
+margin-top: 90px;
+/* border: 2px solid red; */
+background-color: whitesmoke;
+text-align: center;
+}
+#pricing>h1{
+   margin: 30px;
+    
+
+    
+}
+
+#pricing>p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+#all_prices{
+    /* border: 2px solid aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#all_prices>.card{
+    border: 1px solid rgb(20, 212, 33);
+    /* width: 30%; */
+    background-color: white;
+    border-radius: 8px;
+    height: 480px;
+    width: 27%;
+}
+
+#all_prices>.card>h3{
+    background-color: #1bc91b85;
+    opacity: 0.6;
+    width: 44%;
+    text-align: center;
+    position: relative;
+    left: 96px;
+    height: 30px;
+    border-radius: 14px;
+    margin-top: 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#all_prices>#middle>h3 {
+margin-top: 2px;
+
+
+}
+#all_prices>#middle>h2{
+    margin-top:12px ;
+
+}
+#all_prices>.card>h2{
+    margin-top: 40px;
+
+}
+#all_prices>.card>h1{
+    margin-top: 30px;
+    font-size: 34px;
+}
+#all_prices>.card>sub{
+    font-size: 50px;
+}
+#all_prices>.card>p{
+
+    margin-top: 20px;
+}
+
+#all_prices>.card>button{
+    background-color: white;
+    height: 45px;
+    width: 141px;
+    border-radius: 6px;
+    /* border-style: none; */
+    border-color: #19ff19;
+margin-top:40px ;
+
+}
+#all_prices>.card>button:hover{
+    background-color:#54de54;
+    border-style: none;
+
+}
+
+    
+/* <!--------------------- contatct ------------------------------------------> */
+
+#Maincontainer {
+
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+
+
+
+}
+
+#Maincontainer>#leftcontainer {
+    border: 2px solid rgb(21, 199, 182);
+    width: 30%;
+    /* display: flex; */
+
+    padding: 30px;
+    background-color: white;
+
+
+}
+
+#Maincontainer>#leftcontainer>i{
+    /* border: 2px solid rgb(61, 8, 186); */
+    position: relative;
+    left: -29px;
+    top: 37px;
+    font-size: 34px;
+    /* background-color: greenyellow; */
+    color: green;
+}
+
+#Maincontainer>#rightcontainer{
+    border: 2px solid rgb(199, 215, 17);
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+   
+
+
+
+}
+
+#Maincontainer>#rightcontainer{
+    /* height: 200px; */
+    /* background-color: red; */
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+/* justify-content: center; */
+/* height: 230px; */
+background-color: white;
+
+
+}
+
+/* <!----------------------------- footer------------------------------------------ --> */
+
+
+footer{
+    border: 2px solid red;
+background-image: url("./footer-bg.jpg");
+background-repeat: no-repeat;
+background-position: cover
+;
+opacity: 1;
+color: black;
+
+/* height: 500px; */
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+text-align: center;
+
+font-size: 1.2em;
+/* opacity: 0.8; */
+background-color: black;
+}
+footer>#conatiner{
+    border: 2px solid red;
+
+    /* background-color: black; */
+}
+footer #conatiner,#conatiner>img ,#conatiner>h1 ,#conatiner>p ,#conatiner>input,#conatiner>#footericons{
+    
+  margin-top: 30px;
+
+
+
+}
+/* footer>#conatiner>small{
+    margin-top: 1000px;
+}
+footer>#conatiner>p{
+    margin-top: 100px;
+
+} */
+/* #conatiner>#inputdiv{
+    border: 2px solid red
+    ;
+    width: 60px;
+    border-radius: 100%;
+    
+    
+} */
+#conatiner>input{
+
+    height: 50px;
+    width: 40%;
+    border-radius: 40px;
+    border-style: none;
+    text-align: center;
+    
+}
+
+
+#conatiner>button{
+    height: 50px;
+    width: 123px;
+    position: relative;
+    right: 50px;
+    border-radius: 27px;
+    border-style: none;
+    background-color: #8ce536;
+
+
+}
+
+#footericons{
+
+
+
+}
